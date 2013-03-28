@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Getting Started with Ember</title>
+
+		<meta name="description" content="A (mostly) failed introductory talk">
+		<meta name="author" content="Mando Escamilla">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h2>Getting Started with Ember</h2>
+					<h4>A (mostly) failed introductory talk</h4>
+					<p>
+						<small><a href="http://mando.org">Mando Escamilla</a> / <a href="http://twitter.com/mandoescamilla">@mandoescamilla</a></small>
+					</p>
+				</section>
+
+        <section>
+          <h2>My history with Ember</h2>
+        </section>
+
+        <section>
+          <h2>Before</h2>
+          <img class="fragment" src="https://www.evernote.com/shard/s4/sh/58872c92-4166-47bf-be97-3c810b3d3ffd/f54d8facb4345ba1ac132659cdbfc22a/deep/0/Screenshot%203/27/13%2010:20%20PM.jpg"/>
+        </section>
+
+        <section>
+          <img src="https://www.evernote.com/shard/s4/sh/65aaa14d-19df-4ff6-8b04-98339ba687bf/901896d2899f204f6529b619d36bd401/deep/0/Screenshot%203/27/13%2010:20%20PM.jpg"/>
+        </section>
+
+        <section> 
+          <h2>After</h2>
+          <img src="https://www.evernote.com/shard/s4/sh/91743dbf-0a5c-4fb9-941d-c8eb99517e9c/ac61afe31dde950ea967ba5127be87af/deep/0/Screenshot%203/27/13%2010:19%20PM.jpg"/>
+        </section>
+
+        <section>
+          <h1>ONE YEAR LATER</h1>
+        </section>
+        
+        <section>
+          <img src="https://www.evernote.com/shard/s4/sh/7356df9a-4f3f-48e4-81a1-c195c4808806/969ad8b8780ec3a985a6a42215071369/deep/0/Screenshot%203/27/13%2010:35%20PM.jpg"/> 
+        </section>
+        <section>
+          <h2>SO HERE WE ARE</h2>
+          <p class="fragment"><small>on the raggedy edge</small></p>
+        </section>
+        <section>
+          <h2>What is Ember?</h2>
+        </section>
+        <section>
+          <img src="http://images.wikia.com/powerlisting/images/8/8d/-yeah-gtfo-clean-l.png"/>
+        </section>
+        <section>
+         <h2>Ember is</h2>
+         <img class="fragment" style="border:none; box-shadow:none;" src="http://emberjs.com/images/about/header-text.png"/>
+         <p class="fragment"><small>seriously an image?</small></p>
+        </section>
+        <section>
+          <img src="https://www.evernote.com/shard/s4/sh/91743dbf-0a5c-4fb9-941d-c8eb99517e9c/ac61afe31dde950ea967ba5127be87af/deep/0/Screenshot%203/27/13%2010:19%20PM.jpg"/>
+        </section>
+        <section>
+        <h2><a href="../DangerZone/index.html">TO THE CODE</a></h2>
+        </section>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				progress: true,
+				history: true,
+				center: true,
+        rollingLinks: false,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
